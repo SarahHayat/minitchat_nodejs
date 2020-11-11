@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a6733a-f646-40fd-b121-718c1accf474" name="Default Changelist" comment="" />
+    <list default="true" id="06a6733a-f646-40fd-b121-718c1accf474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1k9EHsd2NRhBMLAtHtklRiWOmMF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +31,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.12.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -26,8 +45,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605104322927</updated>
-      <workItem from="1605104324122" duration="294000" />
+      <workItem from="1605104324122" duration="3669000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="566" y="354" key="Github.ShareDialog" timestamp="1605104635946">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="566" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1605104635946" />
+    <state x="481" y="162" key="Github.UntrackedFilesDialog" timestamp="1605104641630">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="481" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605104641630" />
+    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1605107046163">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605107046163" />
   </component>
 </project>
