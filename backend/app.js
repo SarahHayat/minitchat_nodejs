@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
-
+const fs = require('fs');
 const authRoutes = require('./routes/user')
 
 mongoose.connect('mongodb+srv://SarahHayat:admin@cluster0.656un.mongodb.net/Cluster0?retryWrites=true&w=majority',
@@ -26,6 +26,13 @@ app.use("/test",(req, res, next) => {
   res.status(200).json({message : "Requete recu "})
     next()
 });
+
+app.use('/home', (req,res,next) => {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    var readStream = fs.createReadStream(__dirname + '/../frontend/src/index.html','utf8');
+    readStream.pipe(res);
+    next()
+})
 
 app.use("/api/auth", authRoutes )
 
